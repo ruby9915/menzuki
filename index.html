@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="부산에서 즐기는 정통 츠케멘. 멘즈키는 면의 자부심을 지킵니다.">
+    <meta name="keywords" content="츠케멘, 부산 맛집, 일본 라멘, 멘즈키, 야스베">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="멘즈키 | 부산 츠케멘 맛집">
+    <meta property="og:description" content="부산에서 즐기는 정통 츠케멘. 명실상부 부산 1등 츠케멘 전문점">
+    <meta property="og:image" content="./assets/images/hero/tsukemen-hero.jpg">
+    <meta property="og:type" content="website">
+    
+    <title>멘즈키 | 부산 츠케멘 맛집</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/components/header.css">
+    <link rel="stylesheet" href="./css/components/navigation.css">
+    <link rel="stylesheet" href="./css/components/button.css">
+    <link rel="stylesheet" href="./css/components/card.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
+    <link rel="stylesheet" href="./css/sections/hero.css">
+    <link rel="stylesheet" href="./css/sections/story.css">
+    <link rel="stylesheet" href="./css/sections/signature.css">
+    <link rel="stylesheet" href="./css/sections/menu.css">
+    <link rel="stylesheet" href="./css/sections/location.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#home">MENZUKI</a>
+            </div>
+            <nav class="navigation" id="navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">HOME</a></li>
+                    <li><a href="#story" class="nav-link">STORY</a></li>
+                    <li><a href="#signature" class="nav-link">SIGNATURE</a></li>
+                    <li><a href="#menu" class="nav-link">MENU</a></li>
+                    <li><a href="#location" class="nav-link">LOCATION</a></li>
+                    <li><a href="#reservation" class="nav-link nav-link-cta">RESERVATION</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-menu-list">
+            <li><a href="#home" class="mobile-menu-link">HOME</a></li>
+            <li><a href="#story" class="mobile-menu-link">STORY</a></li>
+            <li><a href="#signature" class="mobile-menu-link">SIGNATURE</a></li>
+            <li><a href="#menu" class="mobile-menu-link">MENU</a></li>
+            <li><a href="#location" class="mobile-menu-link">LOCATION</a></li>
+            <li><a href="#reservation" class="mobile-menu-link">RESERVATION</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-video-container">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="./assets/videos/gwangan-promo.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-subtitle fade-in">MENZUKI SINCE 2017</p>
+            <h1 class="hero-title fade-in">츠케멘은 '멘즈키' 입니다!</h1>
+            <p class="hero-tagline fade-in">명/실/상/부 부산 1등 츠케멘 전문점</p>
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story Section -->
+    <section class="story section" id="story">
+        <div class="container">
+            <!-- 섹션 1: 멘즈키, 면을 사랑하는 사람 -->
+            <div class="story-item fade-in-section">
+                <div class="story-content">
+                    <h2 class="section-title">멘즈키, 면을 사랑하는 사람</h2>
+                    <div class="story-text">
+                        <p>멘즈키의 뜻: <strong>'면을 아주 좋아하는 사람'</strong>을 칭하는 일본어입니다.</p>
+                        <p>창업주인 제가 바로 '멘즈키' 이기에 가게 이름을 멘즈키로 짓게 되었습니다.</p>
+                        <p>제가 생각하기에 츠케멘이라는 음식은 면을 즐기기에 정말 끝판왕이 아닐까 합니다.</p>
+                        <p class="highlight">쫄깃한 식감과 미끄러지듯 넘어가는 목넘김!<br>
+                        스프와 함께 입속에서 폭발하는 감칠맛의 향연!<br>
+                        그 감동을 한번 느껴보세요!</p>
+                    </div>
+                </div>
+                <div class="story-image">
+                    <img src="./assets/images/hero/tsukemen-hero.jpg" alt="멘즈키 츠케멘" loading="lazy">
+                </div>
+            </div>
+
+            <!-- 섹션 2: 저희는 다릅니다 -->
+            <div class="story-item story-item-reverse fade-in-section">
+                <div class="story-content">
+                    <h2 class="section-title">저희는 다릅니다</h2>
+                    <div class="story-text">
+                        <p class="highlight">일본 야스베[신주쿠점, 아카사카점]에서<br>
+                        실제로 수련하여 온 찐 정통 츠케멘입니다.</p>
+                        <p>실제 <strong>10년간 일본에 거주</strong>하며 안 가본 츠케멘 전문점이 없을 정도로 조예가 깊으며 
+                        신주쿠와 아카사카 야스베 2곳에서 직접 장기간 수련한 <strong>오너 셰프(국내 유일)</strong>가 
+                        요리사 도합 경력 20년의 모든 역량을 넣어 만든 <strong>궁극의 한 그릇</strong>입니다.</p>
+                    </div>
+                </div>
+                <div class="story-images-grid">
+                    <img src="./assets/images/story/yasubei-chef.jpg" alt="야스베 시절 오너셰프" loading="lazy">
+                    <img src="./assets/images/story/yasubei-tsukemen.jpg" alt="야스베 정통 츠케멘" loading="lazy">
+                </div>
+            </div>
+
+            <!-- 섹션 3: 정성이 만든 맛 -->
+            <div class="story-item fade-in-section">
+                <div class="story-content">
+                    <h2 class="section-title">정성이 만든 맛</h2>
+                    <div class="story-text">
+                        <p><strong>오너셰프가 직접 엄선한 신선한 재료</strong>를 10시간 동안 끓여 만들어낸 진한 비법 스프</p>
+                        <p><strong>20년간 면만 만들어 오신 면 장인</strong>과 머리를 맞대어 고심 끝에 탄생한 
+                        멘즈키만의 오리지널 커스텀 면을 사용하여 정성껏 만들었습니다.</p>
+                        <ul class="story-list">
+                            <li>매일 아침 직접 뽑은 라유[고추기름]와 장유[타레소스]</li>
+                            <li>원재료 수급부터 제조까지 전 과정을 직접 만든 차슈와 멘마</li>
+                            <li>시판제품을 일체 사용하지 않고 직접 정성껏 만들었습니다</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="story-image">
+                    <img src="./assets/images/menu/tsukemen-classic.jpg" alt="멘즈키 츠케멘 클로즈업" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Section -->
+    <section class="signature section bg-navy" id="signature">
+        <div class="container">
+            <h2 class="section-title text-center">멘즈키의 시그니처</h2>
+            <div class="signature-grid">
+                <!-- 비법 육수 -->
+                <div class="signature-card fade-in-section">
+                    <div class="signature-icon">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 35C20 30 22 25 25 25H55C58 25 60 30 60 35V55C60 60 55 65 50 65H30C25 65 20 60 20 55V35Z" stroke="#D32F2F" stroke-width="3" fill="none"/>
+                            <path d="M15 35H65" stroke="#D32F2F" stroke-width="3"/>
+                            <path d="M40 15V25" stroke="#D32F2F" stroke-width="3" stroke-linecap="round"/>
+                            <circle cx="35" cy="45" r="2" fill="#D32F2F"/>
+                            <circle cx="45" cy="45" r="2" fill="#D32F2F"/>
+                        </svg>
+                    </div>
+                    <h3 class="signature-title">비법 육수</h3>
+                    <div class="signature-description">
+                        <p>실제 10년간 일본에 거주하며 안 가본 츠케멘 전문점이 없을 정도로 조예가 깊으며 
+                        신주쿠와 아카사카 야스베, 2곳에서 직접 장기간 수련한 <strong>오너 셰프(국내 유일)</strong>가 
+                        요리사 도합 경력 20년의 모든 역량을 넣어 만든 궁극의 한 그릇입니다.</p>
+                        <p class="signature-highlight">오너셰프가 직접 엄선한 신선한 재료를<br>
+                        <strong>10시간 동안 끓여</strong> 만들어낸 진한 비법 스프</p>
+                    </div>
+                </div>
+
+                <!-- 멘즈키 오리지널 전용면 -->
+                <div class="signature-card fade-in-section">
+                    <div class="signature-icon">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 30C20 30 25 25 30 30C35 35 35 40 30 45C25 50 20 55 20 55" stroke="#D32F2F" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M30 30C30 30 35 25 40 30C45 35 45 40 40 45C35 50 30 55 30 55" stroke="#D32F2F" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M40 30C40 30 45 25 50 30C55 35 55 40 50 45C45 50 40 55 40 55" stroke="#D32F2F" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M50 30C50 30 55 25 60 30C65 35 65 40 60 45C55 50 50 55 50 55" stroke="#D32F2F" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="signature-title">멘즈키 오리지널 전용면</h3>
+                    <div class="signature-description">
+                        <p class="signature-highlight">진료는 의사에게, 약은 약사에게,<br>
+                        <strong>면은 면 장인에게!</strong></p>
+                        <p>저희 면은 <strong>면만 수십 년간 고집해온 면 장인</strong>과 머리를 맞대어 
+                        장기간 고심한 끝에 스프와 완벽히 조화를 이룬 
+                        멘즈키만을 위한 커스텀 면을 생산하여 손님 여러분께 제공하고 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+        <div class="container">
+            <h2 class="section-title text-center">MENU</h2>
+            <p class="section-subtitle text-center">정성이 담긴 멘즈키의 메뉴</p>
+            <div class="menu-grid">
+                <!-- 메뉴 카드 1 -->
+                <div class="menu-card fade-in-section">
+                    <div class="menu-image">
+                        <img src="./assets/images/menu/tsukemen-classic.jpg" alt="클래식 츠케멘" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">클래식 츠케멘</h3>
+                        <p class="menu-description">10시간 끓인 진한 육수와 쫄깃한 면의 완벽한 조화</p>
+                        <p class="menu-price">₩12,000</p>
+                    </div>
+                </div>
+
+                <!-- 메뉴 카드 2 -->
+                <div class="menu-card fade-in-section">
+                    <div class="menu-image">
+                        <img src="./assets/images/menu/tsukemen-classic.jpg" alt="매운 츠케멘" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">매운 츠케멘</h3>
+                        <p class="menu-description">직접 뽑은 라유가 만들어내는 불타는 감칠맛</p>
+                        <p class="menu-price">₩13,000</p>
+                    </div>
+                </div>
+
+                <!-- 메뉴 카드 3 -->
+                <div class="menu-card fade-in-section">
+                    <div class="menu-image">
+                        <img src="./assets/images/menu/tsukemen-classic.jpg" alt="스페셜 츠케멘" loading="lazy">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">스페셜 츠케멘</h3>
+                        <p class="menu-description">프리미엄 토핑이 가득한 멘즈키의 자부심</p>
+                        <p class="menu-price">₩15,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location section bg-dark" id="location">
+        <div class="container">
+            <h2 class="section-title text-center">LOCATION</h2>
+            <div class="location-content">
+                <div class="location-map">
+                    <div id="map" class="map-container"></div>
+                </div>
+                <div class="location-info">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h4>주소</h4>
+                            <p>부산광역시 수영구 광안해변로 0번길 00<br>(추후 정확한 주소 입력)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <h4>전화</h4>
+                            <p>051-XXX-XXXX</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🕐</div>
+                        <div class="info-text">
+                            <h4>영업시간</h4>
+                            <p>11:00 - 21:00<br>브레이크타임: 15:00 - 17:00<br>정기휴무: 매주 월요일</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation CTA Section -->
+    <section class="reservation section" id="reservation">
+        <div class="container text-center">
+            <h2 class="section-title">지금 예약하세요</h2>
+            <p class="section-subtitle">궁극의 츠케멘을 경험할 시간</p>
+            <a href="tel:051-XXX-XXXX" class="btn btn-primary btn-large">전화 예약하기</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-title">MENZUKI</h3>
+                    <p>상호: 멘즈키</p>
+                    <p>대표: 김종원</p>
+                    <p>사업자번호: XXX-XX-XXXXX</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram" target="_blank">Instagram</a>
+                        <a href="#" aria-label="Facebook" target="_blank">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2017 MENZUKI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="./js/main.js" defer></script>
+</body>
+</html>
+

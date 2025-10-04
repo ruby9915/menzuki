@@ -1,0 +1,24 @@
+/* Signature Section */
+.signature {
+    background-color: var(--color-navy);
+}
+
+.signature .section-title {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.signature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+}
+
+/* Mobile Responsive */
+@media (max-width: 1024px) {
+    .signature-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+}
+
